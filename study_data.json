@@ -1,0 +1,19 @@
+{
+  "physics": {
+    "topics": {
+      "optics, laws and motion, electomagnetics, rotational dynamics": {
+        "status": "in_progress",
+        "confidence": 7,
+        "study_time": 0,
+        "last_reviewed": "2025-07-03",
+        "notes": "",
+        "difficulty": "medium"
+      }
+    },
+    "exam_date": "2025-10-7",
+    "priority": "medium",
+    "total_sessions": 1,
+    "last_studied": "2025-07-03",
+    "notes": "electomagnetics,optics,rotanional dynamics,gravity,laws and motion"
+  }
+}
