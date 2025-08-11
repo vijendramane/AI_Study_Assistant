@@ -1,5 +1,4 @@
 
-
 import json
 import os
 import datetime
@@ -50,7 +49,7 @@ class StudyAssistant:
     def add_subject(self):
         """Add or edit a subject"""
         print("\n📚 SUBJECT MANAGEMENT")
-        print("-" * 30)
+        print("-" * 30) 
         
         if self.subjects:
             print("Existing subjects:")
@@ -582,4 +581,5 @@ class StudyAssistant:
 if __name__ == "__main__":
     assistant = StudyAssistant()
     assistant.run()
+
 
