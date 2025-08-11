@@ -78,7 +78,7 @@ class StudyAssistant:
         # Get additional details
         exam_date = input("Enter exam date (YYYY-MM-DD) [optional]: ").strip()
         if exam_date:
-            try:
+            try: 
                 datetime.datetime.strptime(exam_date, "%Y-%m-%d")
                 self.subjects[subject_name]["exam_date"] = exam_date
             except ValueError:
@@ -581,5 +581,6 @@ class StudyAssistant:
 if __name__ == "__main__":
     assistant = StudyAssistant()
     assistant.run()
+
 
 
