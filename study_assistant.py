@@ -2,7 +2,7 @@ import json
 import os
 import datetime
 import random
-from typing import Dict, List, Any 
+from typing import Dict, List, Any
    
 class StudyAssistant: 
     def __init__(self):
@@ -580,6 +580,7 @@ class StudyAssistant:
 if __name__ == "__main__":
     assistant = StudyAssistant()
     assistant.run()
+
 
 
 
