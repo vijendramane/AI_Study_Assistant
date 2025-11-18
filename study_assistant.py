@@ -151,7 +151,7 @@ class StudyAssistant:
         
         print("\n📊 STUDY PROGRESS OVERVIEW")
         print("=" * 50)
-        
+         
         for subject_name, subject_data in self.subjects.items():
             print(f"\n📚 {subject_name.upper()}")
             print(f"Priority: {subject_data['priority'].upper()}")
@@ -580,6 +580,7 @@ class StudyAssistant:
 if __name__ == "__main__":
     assistant = StudyAssistant()
     assistant.run()
+
 
 
 
