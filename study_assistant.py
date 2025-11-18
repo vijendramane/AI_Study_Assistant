@@ -6,7 +6,7 @@ from typing import Dict, List, Any
    
 class StudyAssistant: 
     def __init__(self): 
-        self.data_file = "study_data.json"
+        self.data_file = "study_data.json" 
         self.subjects = self.load_data()  
         
     def load_data(self) -> Dict[str, Any]:
@@ -580,6 +580,7 @@ class StudyAssistant:
 if __name__ == "__main__":
     assistant = StudyAssistant()
     assistant.run()
+
 
 
 
