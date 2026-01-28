@@ -9,7 +9,7 @@ class StudyAssistant:
         self.data_file = "study_data.json"   
         self.subjects = self.load_data()   
         
-    def load_data(self) -> Dict[str, Any]:
+    def load_data(self) -> Dict[str, Any]: 
         """Load study data from JSON file"""
         if os.path.exists(self.data_file): 
             try: 
@@ -580,6 +580,7 @@ class StudyAssistant:
 if __name__ == "__main__":
     assistant = StudyAssistant()
     assistant.run()
+
 
 
 
