@@ -5,7 +5,7 @@ import random
 from typing import Dict, List, Any 
       
 class StudyAssistant: 
-    def __init__(self): 
+    def __init__(self):  
         self.data_file = "study_data.json"   
         self.subjects = self.load_data() 
         
